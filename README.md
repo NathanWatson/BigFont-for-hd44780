@@ -1,13 +1,13 @@
-# BigFont Library for Arduino
+# BigFont Library for Arduino for hd44780
 
-This library allows an Arduino board (a controller using the Arduino core libraries) to display big digits/numbers on 4 row monochrome text displays.
+This library allows an Arduino board (a controller using the Arduino core libraries) to display big digits/numbers on 4 row monochrome hd44780 displays.
 
-This library is derived from [https://github.com/wa1hco/BigFont](https://github.com/wa1hco/BigFont) but unlike the previous this library implements multiple font sizes: 3x2, 3x3 and 4x4 fonts
+This library is derived from [https://github.com/gcassarino/BigFont](https://github.com/gcassarino/BigFont) but unlike the previous this library is for hd44780 displays
 
 
 ## Getting Started
 
-This library was tested using a LCD display drived by the Hitachi HD44780 LCD controller. The controller was drived using the [New LiquidCrystal](https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home) LCD Library by Francisco Malpartida. 
+This library was tested using a hd44780 LCD display. The controller was drived using the [hd44780](https://github.com/duinoWitchery/hd44780) LCD Library by duinoWitchery. 
 
 Example of use:
 ```
@@ -36,7 +36,8 @@ The BigFont library was tested on ESP8266 and ATMega328 boards using the Arduino
 
 * Tom Igoe et al... - *Initial work*
 * [wa1hco](https://github.com/wa1hco/BigFont)
-* [Gianluca Cassarino](https://github.com/gcassarino) - this version for LCD displays
+* [Gianluca Cassarino](https://github.com/gcassarino) New LiquidCrystal library
+* [Nathan Watson](https://github.com/NathanWatson/BigFont-for-hd44780) This version
 
 
 ## License
@@ -45,7 +46,4 @@ This project is licensed under the GPL License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments/Credits
 
-* this Library is derived from [wa1hco BigFont](https://github.com/wa1hco/BigFont) 
-* BigFont.cpp - Big Font library for Arduino - Version 0.1 Derived from Stepper.cpp Original library (0.1) by Tom Igoe et al...
-* [Francisco Malpartida](https://bitbucket.org/fmalpartida/) for writing the excellent library New LiquidCrystal
-
+* this Library is derived from [gcassarino/BigFont](https://github.com/gcassarino/BigFont) 
